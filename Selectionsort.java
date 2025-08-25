@@ -1,4 +1,5 @@
 //Selection sort.
+//time complexity is O(n^2);
 import java.util.*;
 public class Selectionsort
 {   
