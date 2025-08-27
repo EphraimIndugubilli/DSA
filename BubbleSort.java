@@ -1,3 +1,4 @@
+//time complexity of the code base is O(n^2)
 import java.util.*;
 public class BubbleSort
 {   //bubble sort code;
