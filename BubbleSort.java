@@ -1,4 +1,5 @@
 //time complexity of the code base is O(n^2)
+//best case would be O(n) when the array is already sorted and no updation needed.
 import java.util.*;
 public class BubbleSort
 {   //bubble sort code;
