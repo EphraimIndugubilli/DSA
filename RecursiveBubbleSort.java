@@ -1,3 +1,5 @@
+//time complexity: O(n^2)
+//space complexity: O(1)
 import java.util.*;
 public class RecursiveBubbleSort
 {   public static void BubbleSort(int[] arr,int n ){
