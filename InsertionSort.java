@@ -1,4 +1,4 @@
-public //best time complexity is O(n) as there won't be any swapping 
+//best time complexity is O(n) as there won't be any swapping 
 //worst and avg would be O(n^2)
 import java.util.*;
 public class  InsertionSort
