@@ -1,5 +1,6 @@
+//time complexity: O(nlogn)
+//space complexity: O(1)
 import java.util.*;
-
 public class QuickSort {
     public static int partition(ArrayList<Integer> arr, int low, int high) {  
         int pivot = arr.get(low);   
