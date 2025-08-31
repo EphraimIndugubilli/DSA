@@ -1,21 +1,22 @@
 import java.util.*;
 class SecondLargestElement{
     public static int secondLargestElement(int[] nums) {
-        int max = nums[0];
-        int secMax = nums[1];
+        int max = 0;
+        int secMax = 0;
         
-        for(int i = 0; i < nums.length - 1; i++){  
-            if(nums[i+1] > nums[i]){
-                max = nums[i+1];
+        for(int i = 0; i < nums.length; i++){   
+            if(nums[i] > max){
+                max = nums[i];
             }
         }
         
-        for(int i = 0; i < nums.length - 1; i++){  
-            if(max > nums[i]){
-                if(nums[i+1] > nums[i]){
-                    secMax = nums[i+1];
-                }
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] > secMax && nums[i] < max){
+                secMax = nums[i];
             }
+        }
+        if(secMax == 0){
+            return -1;
         }
         return secMax;
     }
