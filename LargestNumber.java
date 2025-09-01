@@ -1,3 +1,8 @@
+//time complexity: O(n)
+//space complexity: O(1)
+//this code is used to find the largest number in an array
+//easy practice question(1)
+
 import java.util.Scanner;
 
 class LargestNumber {
