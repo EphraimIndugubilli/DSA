@@ -1,3 +1,6 @@
+//time complexity: O(n)
+//space complexity: O(1)
+//easy practice question(2)
 import java.util.*;
 class SecondLargestElement{
     public static int secondLargestElement(int[] nums) {
