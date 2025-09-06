@@ -20,7 +20,11 @@ public class ArrayRotation{
         for(int i = 0;i<=n-1;i++){
             arr[i] = sc.nextInt();
         }
-        rotateArr(arr,n);
+        System.err.println("Enter the number of times you want to rotate the array: ");
+        int k = sc.nextInt();
+        for(int i = 0;i<k;i++){
+            rotateArr(arr,n);
+        }
         System.out.println("Array after rotation: ");
         for(int i = 0;i<=n-1;i++){
             System.out.print(arr[i] + " ");
