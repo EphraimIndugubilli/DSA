@@ -1,4 +1,4 @@
-//Check if the array is sorted or not  and remove duplicates;
+//Check if the array is sorted or not  and remove duplicates(type: easy);
 import java.util.*;
 public class DuplicateRemove{
     public static void MergeSort(ArrayList<Integer> arr, int low, int high){
